@@ -7,6 +7,7 @@
 //
 
 #import "MPViewController.h"
+#import "MPShowViewController.h"
 
 @interface MPViewController ()
 
@@ -17,13 +18,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"showWebView"]) {
+        MPShowViewController *mpshowViewController = [segue destinationViewController];
+        mpshowViewController.inputUrl = [NSURL URLWithString:_inputUrlField.text];
+    }
 }
 
 @end

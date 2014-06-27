@@ -10,4 +10,5 @@
 
 @interface MPViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *inputUrlField;
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D503E9F1195CF8BE0074D267 /* MPShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D503E9F0195CF8BE0074D267 /* MPShowViewController.m */; };
 		D50ADFDC195AC920000DABCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50ADFDB195AC920000DABCF /* Foundation.framework */; };
 		D50ADFDE195AC920000DABCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50ADFDD195AC920000DABCF /* CoreGraphics.framework */; };
 		D50ADFE0195AC920000DABCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50ADFDF195AC920000DABCF /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D503E9EF195CF8BD0074D267 /* MPShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPShowViewController.h; sourceTree = "<group>"; };
+		D503E9F0195CF8BE0074D267 /* MPShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPShowViewController.m; sourceTree = "<group>"; };
 		D50ADFD8195AC920000DABCF /* MyPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50ADFDB195AC920000DABCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D50ADFDD195AC920000DABCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				D50ADFEA195AC920000DABCF /* MPAppDelegate.h */,
 				D50ADFEB195AC920000DABCF /* MPAppDelegate.m */,
 				D50ADFED195AC920000DABCF /* Main.storyboard */,
+				D503E9EF195CF8BD0074D267 /* MPShowViewController.h */,
+				D503E9F0195CF8BE0074D267 /* MPShowViewController.m */,
 				D50ADFF0195AC920000DABCF /* MPViewController.h */,
 				D50ADFF1195AC920000DABCF /* MPViewController.m */,
 				D50ADFF3195AC920000DABCF /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				D50ADFE8195AC920000DABCF /* main.m in Sources */,
 				D50ADFF2195AC920000DABCF /* MPViewController.m in Sources */,
+				D503E9F1195CF8BE0074D267 /* MPShowViewController.m in Sources */,
 				D50ADFEC195AC920000DABCF /* MPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				D50AE00C195AC920000DABCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D50AE00D195AC920000DABCF /* Build configuration list for PBXNativeTarget "MyPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				D50AE00F195AC920000DABCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
