@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MPViewController : UIViewController
+@interface MPViewController : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *inputUrlField;
 @end

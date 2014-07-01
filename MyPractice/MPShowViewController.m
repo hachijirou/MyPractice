@@ -27,6 +27,9 @@
 {
     [super viewDidLoad];
     
+    NSURLRequest *req = [NSURLRequest requestWithURL:_inputUrl];
+    [_webView loadRequest:req];
+    
     NSLog(@"%@", _inputUrl);
     // Do any additional setup after loading the view.
 }

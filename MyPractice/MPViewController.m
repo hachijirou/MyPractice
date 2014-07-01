@@ -34,4 +34,12 @@
     }
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    if (textField == self.inputUrlField) {
+        [textField resignFirstResponder];
+    }
+    return YES;
+}
+
 @end

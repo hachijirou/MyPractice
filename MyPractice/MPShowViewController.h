@@ -11,5 +11,6 @@
 @interface MPShowViewController : UIViewController
 
 @property (strong, nonatomic) NSURL* inputUrl;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
